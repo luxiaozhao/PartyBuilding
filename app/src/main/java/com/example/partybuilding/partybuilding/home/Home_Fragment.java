@@ -106,8 +106,35 @@ public class Home_Fragment extends Fragment {
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity(), LinearLayoutManager.HORIZONTAL, false);
         folderAdapter = new FolderAdapter(getActivity(), beans);
         StaggeredGridLayoutManager manager = new StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.HORIZONTAL);
+
+//        waterfallsFlow
         main_recycler.setLayoutManager(manager);
 
+
+/*
+* recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+        //使用瀑布流布局,第一个参数 spanCount 列数,第二个参数 orentation 排列方向
+        StaggeredGridLayoutManager recyclerViewLayoutManager =
+                new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL);
+        //线性布局Manager
+//        LinearLayoutManager recyclerViewLayoutManager = new LinearLayoutManager(this);
+//        recyclerViewLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
+        //网络布局Manager
+//        GridLayoutManager recyclerViewLayoutManager = new GridLayoutManager(this, 3);
+        //给recyclerView设置LayoutManager
+        recyclerView.setLayoutManager(recyclerViewLayoutManager);
+        initData();
+        BeautyAdapter adapter = new BeautyAdapter(data, this);
+        //设置adapter
+        recyclerView.setAdapter(adapter);
+    }
+
+作者：这个杀手不太累
+链接：https://www.jianshu.com/p/02be426fda0a
+來源：简书
+简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
+*
+* */
         main_recycler.setNestedScrollingEnabled(false);
 
         main_recycler.setAdapter(folderAdapter);
