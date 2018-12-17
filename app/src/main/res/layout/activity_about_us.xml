@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/about_us"
+    android:orientation="vertical"
+    tools:context=".mine.activity.AboutUsActivity"
+    tools:ignore="MissingDefaultResource">
+
+    <RelativeLayout
+        android:layout_marginTop="@dimen/lay_20"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lay_52">
+
+        <ImageView
+            android:id="@+id/aboutus_return"
+            android:layout_width="@dimen/lay_25"
+            android:layout_height="@dimen/lay_25"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/lay_10"
+            android:src="@mipmap/fanhui_hei" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="关于我们"
+            android:textColor="#000000"
+            android:textSize="@dimen/font_18" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/lay_15"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="@dimen/lay_15"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="云党建平台"
+            android:textColor="#000"
+            android:textSize="@dimen/font_22"
+            android:textStyle="normal"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="\u0000\u0000"-->
+                <!--android:textColor="#000"-->
+                <!--android:textSize="@dimen/font_22" />-->
+            <TextView
+                android:id="@+id/aboutus_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u3000\u3000遵循《中国共产党章程》、党内相关规章制度及管理办法,结合基层党建工作实际,应用云计算技术解决方案,按照“"
+                android:lineSpacingExtra="@dimen/lay_5"
+                android:textColor="#000"
+                android:textSize="@dimen/font_22" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="@dimen/lay_15"
+        android:layout_marginBottom="@dimen/lay_100"
+        android:gravity="right"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="客服电话:39176"
+            android:textColor="#000"
+            android:textSize="@dimen/font_15" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="北京京航计算通讯研究所"
+            android:textColor="#000"
+            android:textSize="@dimen/font_15" />
+
+    </LinearLayout>
+
+</RelativeLayout>

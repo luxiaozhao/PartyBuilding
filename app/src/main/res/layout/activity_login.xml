@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/landing"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/lay_8"
+    android:paddingRight="@dimen/lay_8"
+    tools:context=".disembark.LoginActivity">
+
+    <TextView
+        android:id="@+id/login_wisdom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/login_accountNumber_lainear"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/lay_65"
+        android:text="智慧党建平台"
+        android:textColor="#FFF"
+        android:textSize="@dimen/font_28"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:id="@+id/login_accountNumber_lainear"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lay_40"
+        android:layout_above="@+id/login_password_lainear"
+        android:layout_marginBottom="@dimen/lay_16"
+        android:background="@drawable/text_beijin_white"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/lay_20"
+            android:text="账号"
+            android:textColor="#FE0000"
+            android:textSize="@dimen/font_14" />
+
+        <EditText
+            android:id="@+id/login_accountNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/lay_10"
+            android:layout_marginRight="@dimen/lay_20"
+            android:background="@null"
+            android:textColor="#000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/login_password_lainear"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lay_40"
+        android:layout_above="@+id/login_remember_password"
+        android:background="@drawable/text_beijin_white"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/lay_20"
+            android:text="密码"
+            android:textColor="#FE0000"
+            android:textSize="@dimen/font_14" />
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/lay_10"
+            android:layout_marginRight="@dimen/lay_20"
+            android:background="@null"
+            android:textColor="#000"
+            android:inputType="textPassword"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/login_remember_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="@dimen/lay_18"
+        android:gravity="center_vertical">
+
+
+        <ImageView
+            android:id="@+id/login_remember_img"
+            android:layout_width="@dimen/lay_20"
+            android:layout_height="@dimen/lay_20"
+            android:src="@mipmap/remember" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/lay_8"
+            android:text="记住密码" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/login_landed"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lay_40"
+        android:layout_below="@+id/login_remember_password"
+        android:layout_marginTop="@dimen/lay_16"
+        android:background="@drawable/button_border_red"
+        android:gravity="center"
+        android:text="登陆"
+        android:textColor="#FFF"
+        android:textSize="@dimen/font_14" />
+
+    <TextView
+        android:id="@+id/login_backtrack"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lay_40"
+        android:layout_below="@+id/login_landed"
+        android:layout_marginTop="@dimen/lay_16"
+        android:background="@drawable/button_border_red"
+        android:gravity="center"
+        android:text="返回"
+        android:textColor="#FFF"
+        android:textSize="@dimen/font_14" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/lay_10"
+        android:text="中国航天科工集团公司"
+        android:textColor="#FFF"
+        android:textSize="@dimen/font_15" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/lay_18"
+        android:text="CHINA AEROSPACE SCIENCE  INDUSTRY CORP"
+        android:textColor="#FFF"
+        android:textSize="@dimen/font_8" />
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notice_adapter_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/notice_adapter_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/lay_14"
+        android:layout_marginTop="@dimen/lay_14"
+        android:layout_marginRight="@dimen/lay_14"
+        android:layout_marginBottom="@dimen/lay_6"
+        android:text="哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇"
+        android:textColor="#0b0b0b"
+        android:textSize="@dimen/font_16" />
+
+    <TextView
+        android:id="@+id/notice_adapter_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/lay_14"
+        android:layout_marginBottom="@dimen/lay_14"
+        android:gravity="right"
+        android:text="sssssssss"
+        android:textColor="#aaa"
+        android:textSize="@dimen/font_14" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lay_1"
+        android:background="#e1e4e9" />
+
+
+</LinearLayout>

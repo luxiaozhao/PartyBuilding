@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lay_20"
+        android:background="#ff0000" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lay_52"
+        android:background="#ff0000">
+
+
+        <LinearLayout
+            android:id="@+id/denglu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/lay_10"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/lay_30"
+                android:layout_height="@dimen/lay_40"
+                android:src="@mipmap/denglu2" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/home_search"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/lay_60"
+            android:layout_marginRight="@dimen/lay_60"
+            android:background="@drawable/text_beijin_white"
+            android:paddingLeft="@dimen/lay_10"
+            android:paddingTop="@dimen/lay_5"
+            android:paddingBottom="@dimen/lay_5">
+
+
+            <ImageView
+                android:layout_width="@dimen/lay_20"
+                android:layout_height="@dimen/lay_20"
+                android:src="@mipmap/suosou" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lay_10"
+                android:text="智慧党建平台"
+                android:textColor="#888"
+                android:textSize="@dimen/font_14"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/home_scanit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/lay_10"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/lay_30"
+                android:layout_height="@dimen/lay_40"
+                android:src="@mipmap/saoyisao2" />
+
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="扫一扫"-->
+            <!--android:textColor="#FFF"-->
+            <!--android:textStyle="bold" />-->
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:background="#d10100"-->
+    <!--android:paddingTop="@dimen/lay_20">-->
+
+
+    <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="50dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="50dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_alignParentStart="true"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_alignParentLeft="true"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_alignParentTop="true"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginStart="10dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginLeft="1dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginTop="10dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:src="@mipmap/home_icon" />&ndash;&gt;-->
+
+
+    <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_alignParentTop="true"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_centerHorizontal="true"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginTop="10dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:gravity="center">&ndash;&gt;-->
+
+
+    <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="30dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="30dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:src="@mipmap/dangjiantubiao" />&ndash;&gt;-->
+
+
+    <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:text="智慧党建平台"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:textColor="#FFF"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:textSize="25sp" />&ndash;&gt;-->
+    <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+
+
+    <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="300dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="30dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_alignParentTop="true"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_centerHorizontal="true"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginTop="60dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:background="@drawable/text_beijing"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:gravity="center_vertical">&ndash;&gt;-->
+
+
+    <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginLeft="10dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="30dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:src="@mipmap/suosuo" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<SearchView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/resultslistpage_search"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:background="@null"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:imeOptions="actionSearch"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:inputType="text"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:cursorVisible="false" />&ndash;&gt;-->
+
+
+    <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:gravity="center_vertical"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:text="查询"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginRight="5dp"/>&ndash;&gt;-->
+
+
+    <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+
+
+    <!--</RelativeLayout>-->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.youth.banner.Banner xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp" />
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/guide_vp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+
+                    <LinearLayout
+                        android:id="@+id/guide_ll_point"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="300dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal"></LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/main_recycler"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="@dimen/lay_10"
+                    android:layout_marginTop="146dp"
+                    android:layout_marginRight="@dimen/lay_10"
+                    android:background="@mipmap/background2"
+                    android:paddingRight="@dimen/lay_15"
+                    android:paddingLeft="@dimen/lay_15"
+                    android:paddingTop="@dimen/lay_5"
+                    android:paddingBottom="@dimen/lay_20" />
+                <!--android:paddingBottom="@dimen/lay_20"-->
+                <!--android:padding="@dimen/lay_15"-->
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/home_notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lay_12"
+                android:layout_marginTop="@dimen/lay_24"
+                android:layout_marginRight="@dimen/lay_14"
+                android:layout_marginBottom="@dimen/lay_24"
+                android:gravity="center_vertical">
+
+
+                <ImageView
+
+                    android:layout_width="@dimen/lay_40"
+                    android:layout_height="@dimen/lay_20"
+                    android:layout_marginRight="@dimen/lay_5"
+                    android:src="@mipmap/notice" />
+
+
+                <View
+                    android:layout_width="@dimen/lay_1"
+                    android:layout_height="match_parent"
+                    android:background="#c7c6cb" />
+
+                <TextView
+                    android:id="@+id/home_notice_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/lay_8"
+                    android:layout_marginRight="@dimen/lay_16"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="暂无通知"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/lay_14" />
+
+                <ImageView
+                    android:layout_width="@dimen/lay_20"
+                    android:layout_height="@dimen/lay_20"
+                    android:src="@mipmap/home_tognzhi" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/lay_10"
+                android:background="#f7f7f7" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lay_12"
+                android:layout_marginTop="@dimen/lay_22"
+                android:layout_marginRight="@dimen/lay_8"
+                android:layout_marginBottom="@dimen/lay_22"
+                android:gravity="center_vertical">
+                <!--more-->
+
+                <ImageView
+
+                    android:layout_width="@dimen/lay_20"
+                    android:layout_height="@dimen/lay_20"
+                    android:src="@mipmap/parent" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/lay_10"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="党政新闻"
+                    android:textColor="#0b0b0b"
+                    android:textSize="@dimen/font_16"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/home_news_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/lay_3"
+                        android:text="更多"
+                        android:textColor="#888888"
+                        android:textSize="@dimen/font_15" />
+
+                    <ImageView
+                        android:layout_width="@dimen/lay_20"
+                        android:layout_height="@dimen/lay_20"
+                        android:src="@mipmap/more" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/lay_1"
+                android:background="#c7c6cb" />
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/home_news_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="1dp"-->
+    <!--android:background="#EEE" />-->
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EEE" />
+
+
+</LinearLayout>

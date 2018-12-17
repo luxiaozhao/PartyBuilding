@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lay_10"
+        android:background="#ff0000" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lay_52"
+        android:background="#ff0000">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="我的"
+            android:textColor="#FFF"
+            android:textSize="@dimen/font_18" />
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:background="@mipmap/my_top"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/mine_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFF"
+                    android:textSize="@dimen/font_20"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/mine_position"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFF"
+                    android:textSize="@dimen/font_15"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mine_data"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/lay_50"
+                android:layout_marginBottom="@dimen/lay_1"
+                android:background="#FFF"
+                android:gravity="center_vertical">
+
+
+                <ImageView
+                    android:layout_width="@dimen/lay_25"
+                    android:layout_height="@dimen/lay_25"
+                    android:layout_marginLeft="@dimen/lay_15"
+                    android:src="@mipmap/data_img" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/lay_15"
+                    android:text="个人资料"
+                    android:textColor="#0b0b0b"
+                    android:textSize="@dimen/font_15" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/lay_8"
+                    android:src="@mipmap/jinru" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mine_password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/lay_50"
+                android:background="#FFF"
+                android:gravity="center_vertical">
+
+
+                <ImageView
+                    android:layout_width="@dimen/lay_25"
+                    android:layout_height="@dimen/lay_25"
+                    android:layout_marginLeft="@dimen/lay_15"
+                    android:src="@mipmap/password_img" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/lay_15"
+                    android:text="修改密码"
+                    android:textColor="#0b0b0b"
+                    android:textSize="@dimen/font_15" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/lay_8"
+                    android:src="@mipmap/jinru" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mine_course"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/lay_50"
+                android:layout_marginTop="@dimen/lay_10"
+                android:background="#FFF"
+                android:gravity="center_vertical">
+
+
+                <ImageView
+                    android:layout_width="@dimen/lay_25"
+                    android:layout_height="@dimen/lay_25"
+                    android:layout_marginLeft="@dimen/lay_15"
+                    android:src="@mipmap/course_img" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/lay_15"
+                    android:text="我的课程"
+                    android:textColor="#0b0b0b"
+                    android:textSize="@dimen/font_15" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/lay_8"
+                    android:src="@mipmap/jinru" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mine_examination"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/lay_50"
+                android:layout_marginTop="@dimen/lay_1"
+                android:background="#FFF"
+                android:gravity="center_vertical">
+
+
+                <ImageView
+                    android:layout_width="@dimen/lay_25"
+                    android:layout_height="@dimen/lay_25"
+                    android:layout_marginLeft="@dimen/lay_15"
+                    android:src="@mipmap/examination_img" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/lay_15"
+                    android:text="我的考试"
+                    android:textColor="#0b0b0b"
+                    android:textSize="@dimen/font_15" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/lay_8"
+                    android:src="@mipmap/jinru" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mine_about"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/lay_50"
+                android:layout_marginTop="@dimen/lay_10"
+                android:background="#FFF"
+                android:gravity="center_vertical">
+
+
+                <ImageView
+                    android:layout_width="@dimen/lay_25"
+                    android:layout_height="@dimen/lay_25"
+                    android:layout_marginLeft="@dimen/lay_15"
+                    android:src="@mipmap/about_img" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/lay_15"
+                    android:text="关于我们"
+                    android:textColor="#0b0b0b"
+                    android:textSize="@dimen/font_15" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/lay_8"
+                    android:src="@mipmap/jinru" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mine_cache"
+                android:layout_marginTop="@dimen/lay_1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/lay_50"
+                android:background="#FFF"
+                android:gravity="center_vertical">
+
+
+                <ImageView
+                    android:layout_width="@dimen/lay_25"
+                    android:layout_height="@dimen/lay_25"
+                    android:layout_marginLeft="@dimen/lay_15"
+                    android:src="@mipmap/cache_img" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/lay_15"
+                    android:text="清理缓存"
+                    android:textColor="#0b0b0b"
+                    android:textSize="@dimen/font_15" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/lay_8"
+                    android:src="@mipmap/jinru" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/mine_signout"
+                android:layout_marginTop="@dimen/lay_10"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/lay_50"
+                android:layout_marginBottom="@dimen/lay_20"
+                android:background="#FFF"
+                android:gravity="center"
+                android:text="退出登陆"
+                android:textColor="#0b0b0b"
+                android:textSize="@dimen/font_15" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

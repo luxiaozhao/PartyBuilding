@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/adapter_linear"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="@dimen/lay_80"
+        android:layout_height="@dimen/lay_80"
+        android:background="#0ff"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_marginTop="@dimen/lay_10"
+            android:id="@+id/adapter_img"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher"
+            />
+
+        <TextView
+            android:layout_marginTop="@dimen/lay_10"
+
+            android:id="@+id/adapter_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dsns"
+            android:textColor="#000"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
